@@ -8,5 +8,5 @@ urlpatterns = [
     path("countries/image/", views.countries_image, name="countries-image"),
     path("countries/", views.list_countries, name="countries-list"),
     path("countries/<str:name>/", views.get_country, name="countries-detail"),
-    path("countries/<str:name>/delete/", views.delete_country, name="countries-delete"),
+    path("countries/<str:name>", views.delete_country, name="countries-delete"),
 ]
