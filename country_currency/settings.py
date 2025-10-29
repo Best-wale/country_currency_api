@@ -15,7 +15,8 @@ SECRET_KEY = 'django-insecure-2e-nx0xko*4l-wih)(h7lf+26%-sx_&2thgnvnf%y9r+j*-p@b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["dpg-d414u7hr0fns739uph6g-a.oregon-postgres.render.com",'127.0.0.1']
+ALLOWED_HOSTS = ["dpg-d414u7hr0fns739uph6g-a.oregon-postgres.render.com",'127.0.0.1','countrycurrencyapi-production-b9e1.up.railway.app']
+
 
 
 # Application definition
